@@ -1,0 +1,23 @@
+
+.left-side {
+    height: 100%
+}
+
+.btn-pink {
+    background: #FF5252;
+    font-size: 16px;
+    color: #fff;
+    width: 150px;
+    height: 40px;
+    border: 1px solid #FF5252;
+    text-transform: uppercase
+}
+
+.btn-pink:hover {
+    background: #F44336
+}
+
+.shoe-img {
+    height: 220px;
+    width: 50%
+}

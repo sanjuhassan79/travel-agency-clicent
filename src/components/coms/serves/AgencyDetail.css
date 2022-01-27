@@ -1,0 +1,28 @@
+.Product__home img {
+    width: 100%;
+    height: 64vh;
+    position: relative;
+}
+.Product__home h4 {
+    position: absolute;
+    top: 30rem;
+    left: 12rem;
+    font-size: 30px;
+    color: #4c1a1a;
+    text-transform: uppercase;
+}
+img {
+    width: 100%;
+}
+h4.title__p {
+    font-size: 50px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+   
+}
+h6.title__pri {
+    font-size: 25px;
+    margin: 0px;
+    color: #5b1b1b;
+}

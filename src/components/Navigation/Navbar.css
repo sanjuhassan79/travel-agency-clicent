@@ -1,0 +1,53 @@
+.top-nav {
+    background: linear-gradient(to right, #3a181d, #291115);;
+  }
+    .top-nav .nav-link {
+      color: white !important;
+    }
+    /* .top-nav .nav-link:hover {
+      border-bottom: 2px solid white;
+    } */
+    .logow {
+      width: 183% !important;
+      height: 37px;
+  }
+  
+    .navLink {
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: 600;
+      color: white;
+      padding: 0 10px;
+  }
+    .top-nav .menu-list {
+      justify-content: flex-end;
+    }
+    .top-nav .navbar-brand {
+      float: left;
+    }
+    .mavName {
+      color: #152f4f;
+  }
+    .navbar .dropdown-menu a:hover {
+      color: #616161 !important;
+    }
+    
+    .darken-grey-text {
+      color: #2e2e2e;
+    }
+    .sinItem {
+      background: #7f8cb9;
+      padding: 4px 9px;
+      border-radius: 5px;
+      color: white;
+  }
+  @media (max-width: 972px) {
+    .Nav__res {
+      display: flex;
+      flex-direction: column;
+    }
+    .navLink__res {
+      margin: 15px 0;
+  }
+  }
