@@ -34,7 +34,7 @@ const useFirebase = () => {
                 }).then(() => {
                 }).catch((error) => {
                 });
-                history('/');
+                
             })
             .catch((error) => {
                 setAuthError(error.message);
@@ -48,7 +48,7 @@ const verifyEmail=(history)=>{
     sendEmailVerification(auth.currentUser)
   .then((result) => {
     console.log(result);
-    
+    history('/');
   });
 }
 
